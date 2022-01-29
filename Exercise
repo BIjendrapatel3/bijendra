@@ -1,0 +1,12 @@
+color = input("Enter Your Favorite Color Name")
+print(input)
+
+neighbourcolor = input("Enter Neighbour Favorite Color Name")
+
+concat_color = ("Color,neighbourcolor")
+print(concat_color)
+print(concat_color)
+
+color,neighbourcolor = neighbourcolor,color
+print("Color, Color")
+print("Neighbour_Color: ", neighbourcolor)
